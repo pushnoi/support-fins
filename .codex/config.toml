@@ -10,8 +10,17 @@ enabled = true
 [mcp_servers.playwright]
 enabled = false
 
+[mcp_servers."unifi-network"]
+enabled = true
+
 [plugins."codex-security@openai-curated"]
 enabled = true
 
 [plugins."codex-security@openai-curated-remote"]
+enabled = true
+
+[plugins."unifi-network@unifi-plugins"]
+enabled = true
+
+[plugins."cloudflare@openai-curated-remote"]
 enabled = true
