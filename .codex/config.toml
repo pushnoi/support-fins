@@ -1,0 +1,17 @@
+# Project defaults for the Support Fins fork. Server definitions and credentials
+# stay in the user configuration; this file only selects existing capabilities.
+
+[mcp_servers."context7"]
+enabled = true
+
+[mcp_servers."chrome-devtools"]
+enabled = true
+
+[mcp_servers.playwright]
+enabled = false
+
+[plugins."codex-security@openai-curated"]
+enabled = true
+
+[plugins."codex-security@openai-curated-remote"]
+enabled = true
