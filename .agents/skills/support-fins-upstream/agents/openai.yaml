@@ -1,0 +1,4 @@
+interface:
+  display_name: "Support Fins upstream"
+  short_description: "Controleer en verwerk updates van de bron"
+  default_prompt: "Gebruik $support-fins-upstream om nieuwe commits van de bron te controleren en meld wat er klaarstaat."
