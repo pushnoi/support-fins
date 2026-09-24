@@ -13,9 +13,10 @@ them to make an update succeed.
 For GitHub pushes, `origin` must be `pushnoi/support-fins` and authentication
 must use the `pushnoi` GitHub account. Keep the repository-local credential
 helper and `.githooks/pre-push` guard active; never switch the global `gh`
-account to make a push work. Run `.githooks/setup.sh` once after a fresh clone
-to install the local Git settings. Do not push to `upstream` or disable the
-hook.
+account to make a push work. On this machine the fixed project path also has
+a Git `includeIf` entry so a fresh clone there inherits the guard. Run
+`.githooks/setup.sh` once when cloning elsewhere to install the local Git
+settings. Do not push to `upstream` or disable the hook.
 
 When work concerns deployment on the home server, use the local `loki`
 skill to check the live server and its deployment source. For DNS, proxy or
